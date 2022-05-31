@@ -14,7 +14,7 @@
 
     <p class="text-justify">{{ user.bio || "No bio specified." }}</p>
 
-    <span class="online">{{ user.username }} is online</span>
+    <span class="online">{{ user.username }}</span>
 
     <div class="stats">
       <span>{{ user.postsCount }} posts</span>
